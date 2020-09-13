@@ -5,5 +5,5 @@ In this project, test automation was created for ApiDemos application using the 
 
 ## Proje Özellikleri
 
-* 2 different log records are kept.
-** The first of these is kept under `Logs/` in the form of info and error etc.
+*2 different log records are kept.
+**The first of these is kept under `Logs/` in the form of info and error etc.
