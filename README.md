@@ -35,7 +35,7 @@ For detailed information, it can be obtained from https://www.swtestacademy.com/
              </test>
          </suite>
           
-* The udid information of the device to be tested is obtained by typing <adb devices> in the command prompt.
+* The udid information of the device to be tested is obtained by typing "adb devices" in the command prompt.
 * Since suite is set as parallel="tests", multiple device testing can be done by adding parameter of different devices.
 
 For detailed information, it can be obtained from http://appium.io/docs/en/writing-running-appium/caps/.
