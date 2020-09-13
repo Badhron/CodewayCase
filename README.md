@@ -11,4 +11,10 @@ In this project, test automation was created for ApiDemos application using the 
 * The other is kept under the `Allure-results/` folder.
 * In addition, the `FailTest/` and `TestResult/` folders are opened under the `screenshotFile/` file. These folders contain screenshots that need to be tested manually and screenshots of the test case(s) with error(s).
 
-Allure ile elde edilen raporların görüntülenebilmesi iç
+In order to view the reports obtained with Allure, allure should be installed on the computer that will be used and  
+
+        allure serve <Allure-results path>
+  
+  such as 
+  
+        C:\Users\User>allure serve C:\Users\User\IdeaProjects\Codeway\allure-results
