@@ -1,0 +1,54 @@
+2020-09-13T17:45:29.125+0300 INFO Test Started: TestScenario_02
+2020-09-13T17:45:29.511+0300 INFO "Text" text is clicked.
+2020-09-13T17:45:30.719+0300 INFO "LogTextBox" text is clicked.
+2020-09-13T17:45:31.703+0300 INFO Press "ADD" button.
+2020-09-13T17:45:31.802+0300 INFO Textbox is checked.
+2020-09-13T17:45:32.321+0300 INFO Test Passed: TestScenario_02
+2020-09-13T17:45:34.252+0300 INFO Test Started: TestScenario_03
+2020-09-13T17:45:34.508+0300 INFO "Preference" text is clicked.
+2020-09-13T17:45:35.757+0300 INFO "Preference dependencies" text is clicked.
+2020-09-13T17:45:36.819+0300 INFO "Checkbox" marked.
+2020-09-13T17:45:36.854+0300 INFO Is "Wifi" enabled?.
+2020-09-13T17:45:36.888+0300 INFO Test Passed: TestScenario_03
+2020-09-13T17:45:38.739+0300 INFO Test Started: TestScenario_04
+2020-09-13T17:45:39.009+0300 INFO "Media" text is clicked.
+2020-09-13T17:45:40.381+0300 INFO "AudioFx" text is clicked.
+2020-09-13T17:45:41.405+0300 INFO "60Hz Equalizer" is set to 15 dB.
+2020-09-13T17:46:06.923+0300 INFO Test Started: TestScenario_02
+2020-09-13T17:46:07.244+0300 INFO "Text" text is clicked.
+2020-09-13T17:46:08.497+0300 INFO "LogTextBox" text is clicked.
+2020-09-13T17:46:09.510+0300 INFO Press "ADD" button.
+2020-09-13T17:46:09.607+0300 INFO Textbox is checked.
+2020-09-13T17:46:10.124+0300 INFO Test Passed: TestScenario_02
+2020-09-13T17:46:12.333+0300 INFO Test Started: TestScenario_03
+2020-09-13T17:46:12.626+0300 INFO "Preference" text is clicked.
+2020-09-13T17:46:13.850+0300 INFO "Preference dependencies" text is clicked.
+2020-09-13T17:46:14.812+0300 INFO "Checkbox" marked.
+2020-09-13T17:46:14.846+0300 INFO Is "Wifi" enabled?.
+2020-09-13T17:46:14.880+0300 INFO Test Passed: TestScenario_03
+2020-09-13T17:46:16.962+0300 INFO Test Started: TestScenario_04
+2020-09-13T17:46:17.252+0300 INFO "Media" text is clicked.
+2020-09-13T17:46:18.446+0300 INFO "AudioFx" text is clicked.
+2020-09-13T17:46:19.483+0300 INFO "60Hz Equalizer" is set to 15 dB.
+2020-09-13T17:46:21.627+0300 INFO Did "60Hz Equalizer" set to 15dB?
+2020-09-13T17:46:22.179+0300 INFO Test Passed: TestScenario_04
+2020-09-13T17:46:24.096+0300 INFO Test Started: TestScenario_05
+2020-09-13T17:46:24.356+0300 INFO "Animation" text is clicked.
+2020-09-13T17:46:25.558+0300 INFO "Multiple Properties" text is clicked.
+2020-09-13T17:46:26.699+0300 INFO Press "Run" button.
+2020-09-13T17:46:31.784+0300 INFO Check animation.
+2020-09-13T17:46:32.218+0300 INFO Animation test sonucu ekran görüntüsü alındı => ScreenshotFile\ApiDemos\Test
+2020-09-13T17:46:32.219+0300 INFO Test Passed: TestScenario_05
+2020-09-13T17:46:34.193+0300 INFO Test Started: TestScenario_06
+2020-09-13T17:46:34.539+0300 INFO "App" text is clicked.
+2020-09-13T17:46:35.639+0300 INFO "Notification" text is clicked.
+2020-09-13T17:46:36.679+0300 INFO "NotifyWithText" text is clicked.
+2020-09-13T17:46:37.643+0300 INFO Press "Show Short Notification" button.
+2020-09-13T17:46:37.736+0300 INFO Check "Show Short Notification" message.
+2020-09-13T17:46:38.298+0300 INFO Test Passed: TestScenario_06
+2020-09-13T17:46:40.312+0300 INFO Test Started: TestScenario_07
+2020-09-13T17:46:40.581+0300 INFO "OS" text is clicked.
+2020-09-13T17:46:41.864+0300 INFO "SMS Messaging" text is clicked.
+2020-09-13T17:46:42.903+0300 INFO "Recipient" information written.
+2020-09-13T17:46:43.447+0300 INFO "Message Body" written.
+2020-09-13T17:46:44.756+0300 INFO Test Failed: TestScenario_07

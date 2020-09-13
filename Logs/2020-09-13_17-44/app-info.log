@@ -1,0 +1,12 @@
+2020-09-13T17:44:44.554+0300 INFO Test Started: TestScenario_02
+2020-09-13T17:44:44.921+0300 INFO "Text" text is clicked.
+2020-09-13T17:44:46.061+0300 INFO "LogTextBox" text is clicked.
+2020-09-13T17:44:47.026+0300 INFO Press "ADD" button.
+2020-09-13T17:44:47.133+0300 INFO Textbox is checked.
+2020-09-13T17:44:47.646+0300 INFO Test Passed: TestScenario_02
+2020-09-13T17:44:49.545+0300 INFO Test Started: TestScenario_03
+2020-09-13T17:44:49.852+0300 INFO "Preference" text is clicked.
+2020-09-13T17:44:51.175+0300 INFO "Preference dependencies" text is clicked.
+2020-09-13T17:44:52.185+0300 INFO "Checkbox" marked.
+2020-09-13T17:44:52.217+0300 INFO Is "Wifi" enabled?.
+2020-09-13T17:44:52.248+0300 INFO Test Passed: TestScenario_03

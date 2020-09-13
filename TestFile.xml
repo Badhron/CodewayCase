@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite data-provider-thread-count="1" name="CodewayTest" parallel="tests">
+
+    <test name="ApiDemosDebug">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="deviceName" value="Android Emulator"/>
+        <parameter name="udid" value="emulator-5554"/> <!-- adb devices -->
+        <parameter name="app" value="ApiDemos-debug.apk"/> <!-- APP path -->
+        <classes>
+            <class name="com.berkin.test.ApiDemos"/>
+        </classes>
+    </test>
+
+</suite>
+
