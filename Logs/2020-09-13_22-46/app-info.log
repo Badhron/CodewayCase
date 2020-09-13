@@ -1,0 +1,40 @@
+2020-09-13T22:46:21.940+0300 INFO Test Started: TestScenario_02
+2020-09-13T22:46:22.384+0300 INFO "Text" text is clicked.
+2020-09-13T22:46:23.694+0300 INFO "LogTextBox" text is clicked.
+2020-09-13T22:46:24.685+0300 INFO Press "ADD" button.
+2020-09-13T22:46:24.788+0300 INFO Textbox is checked.
+2020-09-13T22:46:25.305+0300 INFO Test Passed: TestScenario_02
+2020-09-13T22:46:27.145+0300 INFO Test Started: TestScenario_03
+2020-09-13T22:46:27.425+0300 INFO "Preference" text is clicked.
+2020-09-13T22:46:28.665+0300 INFO "Preference dependencies" text is clicked.
+2020-09-13T22:46:29.768+0300 INFO "Checkbox" marked.
+2020-09-13T22:46:29.805+0300 INFO Is "Wifi" enabled?.
+2020-09-13T22:46:29.838+0300 INFO Test Passed: TestScenario_03
+2020-09-13T22:46:31.722+0300 INFO Test Started: TestScenario_04
+2020-09-13T22:46:31.976+0300 INFO "Media" text is clicked.
+2020-09-13T22:46:33.314+0300 INFO "AudioFx" text is clicked.
+2020-09-13T22:46:34.332+0300 INFO "60Hz Equalizer" is set to 15 dB.
+2020-09-13T22:46:36.459+0300 INFO Did "60Hz Equalizer" set to 15dB?
+2020-09-13T22:46:36.986+0300 INFO Test Passed: TestScenario_04
+2020-09-13T22:46:39.084+0300 INFO Test Started: TestScenario_05
+2020-09-13T22:46:39.363+0300 INFO "Animation" text is clicked.
+2020-09-13T22:46:40.433+0300 INFO "Multiple Properties" text is clicked.
+2020-09-13T22:46:41.450+0300 INFO Press "Run" button.
+2020-09-13T22:46:46.546+0300 INFO Check animation.
+2020-09-13T22:46:46.991+0300 INFO Animation test sonucu ekran görüntüsü alındı => ScreenshotFile\ApiDemos\Test
+2020-09-13T22:46:46.992+0300 INFO Test Passed: TestScenario_05
+2020-09-13T22:46:48.934+0300 INFO Test Started: TestScenario_06
+2020-09-13T22:46:49.261+0300 INFO "App" text is clicked.
+2020-09-13T22:46:50.430+0300 INFO "Notification" text is clicked.
+2020-09-13T22:46:51.465+0300 INFO "NotifyWithText" text is clicked.
+2020-09-13T22:46:52.450+0300 INFO Press "Show Short Notification" button.
+2020-09-13T22:46:52.550+0300 INFO Check "Show Short Notification" toast message.
+2020-09-13T22:46:53.097+0300 INFO Test Passed: TestScenario_06
+2020-09-13T22:46:54.972+0300 INFO Test Started: TestScenario_07
+2020-09-13T22:46:55.302+0300 INFO "OS" text is clicked.
+2020-09-13T22:46:56.443+0300 INFO "SMS Messaging" text is clicked.
+2020-09-13T22:46:57.458+0300 INFO "Recipient" information written.
+2020-09-13T22:46:58.005+0300 INFO "Message Body" written.
+2020-09-13T22:46:59.082+0300 INFO Press "SEND" button.
+2020-09-13T22:46:59.671+0300 INFO "SMS Status" checked.
+2020-09-13T22:47:00.940+0300 INFO Test Failed: TestScenario_07

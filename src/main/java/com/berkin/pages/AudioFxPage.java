@@ -1,6 +1,7 @@
 package com.berkin.pages;
 
 import com.berkin.base.BaseStepMethod;
+import io.qameta.allure.Step;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -10,6 +11,7 @@ public class AudioFxPage extends BaseStepMethod {
 
     private static final By SEEKBAR_60HZ = By.xpath("/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.SeekBar");
 
+    @Step("\"60Hz Equalizer\" is set to 15 dB.")
     public AudioFxPage set60HzEqualizerTo15dB() {
         LOGGER.info("\"60Hz Equalizer\" is set to 15 dB.");
 
@@ -18,6 +20,7 @@ public class AudioFxPage extends BaseStepMethod {
         return this;
     }
 
+    @Step("Did \"60Hz Equalizer\" set to 15dB?")
     public void is60HzEqualizer15dB() {
         LOGGER.info("Did \"60Hz Equalizer\" set to 15dB?");
 

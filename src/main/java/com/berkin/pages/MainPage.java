@@ -43,13 +43,13 @@ public class MainPage extends BaseStepMethod {
 
         clickElement(BTN_MEDIA);
     }
-
+    @Step("\"Animation\" text is clicked.")
     public void openAnimationPage() {
         LOGGER.info("\"Animation\" text is clicked.");
 
         clickElement(BTN_ANIMATION);
     }
-
+    @Step("\"App\" text is clicked.")
     public void openAppPage() {
         LOGGER.info("\"App\" text is clicked.");
 

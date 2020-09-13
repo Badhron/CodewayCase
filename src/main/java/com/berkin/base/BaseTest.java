@@ -36,7 +36,7 @@ public class BaseTest {
         try {
             androidDriver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         } catch (MalformedURLException e) {
-            LOGGER.error("Driver oluşturulamadı! ErrorMessage: " + e.getMessage());
+            LOGGER.error("Driver could not be created! ErrorMessage: " + e.getMessage());
         }
 
         DriverThread.setDriver(androidDriver);

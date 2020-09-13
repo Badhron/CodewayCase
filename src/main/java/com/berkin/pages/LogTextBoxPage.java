@@ -1,6 +1,7 @@
 package com.berkin.pages;
 
 import com.berkin.base.BaseStepMethod;
+import io.qameta.allure.Step;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -11,6 +12,7 @@ public class LogTextBoxPage extends BaseStepMethod {
     private static final By BTN_ADD = By.id("io.appium.android.apis:id/add");
     private static final By TEXTBOX = By.id("io.appium.android.apis:id/text");
 
+    @Step("Press \"ADD\" button.")
     public LogTextBoxPage addTestText() {
         LOGGER.info("Press \"ADD\" button.");
 
@@ -18,6 +20,7 @@ public class LogTextBoxPage extends BaseStepMethod {
         return this;
     }
 
+    @Step("Textbox is checked.")
     public void checkTextBox() {
         LOGGER.info("Textbox is checked.");
 

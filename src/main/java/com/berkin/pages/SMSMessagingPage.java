@@ -1,6 +1,7 @@
 package com.berkin.pages;
 
 import com.berkin.base.BaseStepMethod;
+import io.qameta.allure.Step;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -13,24 +14,28 @@ public class SMSMessagingPage extends BaseStepMethod {
     private static final By BTN_SEND = By.id("io.appium.android.apis:id/sms_send_message");
     private static final By TEXT_SMSSTATUS = By.id("io.appium.android.apis:id/sms_status");
 
+    @Step("\"Recipient\" information written.")
     public SMSMessagingPage writeRecipient() {
         LOGGER.info("\"Recipient\" information written.");
         setTextElement(TEXTBOX_RECIPIENT, "Telekom");
         return this;
     }
 
+    @Step("\"Message Body\" written.")
     public SMSMessagingPage writeMessageContent() {
         LOGGER.info("\"Message Body\" written.");
         setTextElement(TEXTBOX_MESSAGEBODY, " Houston, we have a problem.");
         return this;
     }
 
+    @Step("Press \"SEND\" button.")
     public SMSMessagingPage sendSMS() {
         LOGGER.info("Press \"SEND\" button.");
         clickElement(BTN_SEND);
         return this;
     }
 
+    @Step("\"SMS Status\" checked.")
     public SMSMessagingPage checkSMSStatus() {
         LOGGER.info("\"SMS Status\" checked.");
 
