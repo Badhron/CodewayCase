@@ -15,6 +15,6 @@ In order to view the reports obtained with Allure, allure should be installed on
 
         allure serve <Allure-results path>
   
-  such as 
+ should be written in the command prompt.Such as
   
         C:\Users\User>allure serve C:\Users\User\IdeaProjects\Codeway\allure-results
